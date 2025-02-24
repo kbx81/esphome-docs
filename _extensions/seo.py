@@ -127,7 +127,7 @@ class SEODirective(Directive):
         if image is not None:
             local_img = image
             if not image.startswith("/"):
-                local_img = f"/images/{image}"
+                local_img = f"/docs/images/{image}"
                 image = "/_images/" + image
             p = Path(__file__).parent.parent / local_img[1:]
             if not p.is_file():

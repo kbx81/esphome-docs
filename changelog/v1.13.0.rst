@@ -89,17 +89,17 @@ Other notable changes:
 - Hass.io Ingress - ESPHome now supports showing the dashboard directly in the Home Assistant frontend
   via the Hass.io Ingress feature.
 - The i2c variant of the ttp229 device is now also supported.
-- Covers now support position & tilt - you can use these with the new :doc:`endstop </components/cover/endstop>`
-  and :doc:`time-based </components/cover/time_based>` cover platforms.
+- Covers now support position & tilt - you can use these with the new :doc:`endstop </docs/components/cover/endstop>`
+  and :doc:`time-based </docs/components/cover/time_based>` cover platforms.
 - ESPHome has received support for climate devices, you can now let your ESP control heaters/coolers
   directly on the ESP. Great for building a DIY thermostat or making an existing one IoT-enabled.
-- :doc:`Lights </components/light/index>` now have some new actions: ``light.dim_relative`` and
+- :doc:`Lights </docs/components/light/index>` now have some new actions: ``light.dim_relative`` and
   ``light.addressable_set``. Addressable lights now also support a new range syntax (``.range()`` and ``.all()``)
   functions to allow easier effect creation.
 - Added a new custom component mechanism and contribution guidelines have been updated. See the
-  :doc:`contributing guide </guides/contributing>` for more details.
-- :doc:`RDM6300 </components/binary_sensor/rdm6300>` now also has an ``on_tag`` trigger like the PN532.
-- :doc:`Remote Transmitter </components/remote_transmitter>` and :doc:`Remote Receiver </components/remote_receiver>`
+  :doc:`contributing guide </docs/guides/contributing>` for more details.
+- :doc:`RDM6300 </docs/components/binary_sensor/rdm6300>` now also has an ``on_tag`` trigger like the PN532.
+- :doc:`Remote Transmitter </docs/components/remote_transmitter>` and :doc:`Remote Receiver </docs/components/remote_receiver>`
   have gotten some new features: custom triggers and actions with templatable values.
 - Added ``output.esp8266_pwm.set_frequency`` action for dynamically changing the frequency of the ESP8266
   PWM output (for example for active buzzers).

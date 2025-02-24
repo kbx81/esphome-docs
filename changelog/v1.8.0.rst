@@ -53,9 +53,9 @@ This release mainly focuses on these new features:
 
 - Lots of Bug Fixes - Now that most of the hardware has arrived from china, I was able to fix a bunch
   of bugs with a lot of integrations.
-- :doc:`Displays! </components/display/index>`
-- NFC/RFID Readers (:doc:`PN532 </components/binary_sensor/pn532>` and :doc:`RDM6300 </components/binary_sensor/rdm6300>`)
-- New :doc:`ESP32 BLE integrations </components/esp32_ble_tracker>` like :doc:`Xiaomi HHCCJCY01 </components/sensor/xiaomi_hhccjcy01>`
+- :doc:`Displays! </docs/components/display/index>`
+- NFC/RFID Readers (:doc:`PN532 </docs/components/binary_sensor/pn532>` and :doc:`RDM6300 </docs/components/binary_sensor/rdm6300>`)
+- New :doc:`ESP32 BLE integrations </docs/components/esp32_ble_tracker>` like :doc:`Xiaomi HHCCJCY01 </docs/components/sensor/xiaomi_hhccjcy01>`
 - Core Changes like the addition of the :ref:`SPI bus <spi>` and :ref:`UART bus <uart>`
 - Lots of new :ref:`light effects <light-effects>` and support for cold-white/warm-white lights.
 - A LOGO FOR THIS PROJECT!!! Thanks a lot to `@messimore <https://github.com/messismore>`__ for
@@ -159,7 +159,7 @@ Other notable changes
 Breaking Changes
 ****************
 
-- The :doc:`core configuration </components/esphome>` has been reworked a bit to a)
+- The :doc:`core configuration </docs/components/esphome>` has been reworked a bit to a)
   make using different arduino framework version easier and b) make editing your local esphomelib
   copy easier.
 - Light Effects now need to be manually declared in the config and will no longer show up automatically. Please see :ref:`light-effects`

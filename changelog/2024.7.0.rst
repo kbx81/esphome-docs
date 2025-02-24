@@ -29,7 +29,7 @@ needs to be changed to the following:
       models:
         - okay_nabu
 
-Please see the :doc:`Documentation </components/micro_wake_word>` for the full configuration.
+Please see the :doc:`Documentation </docs/components/micro_wake_word>` for the full configuration.
 
 Release 2024.7.1 - July 22
 --------------------------

@@ -41,7 +41,7 @@ Also, look at that nice sorted and categorized home page of sensors. Thanks to :
 Select Entities
 ---------------
 
-ESPHome devices can now create :doc:`Select</components/select/index>` entities in Home Assistant. This allows you to
+ESPHome devices can now create :doc:`Select</docs/components/select/index>` entities in Home Assistant. This allows you to
 not have to create ``input_select`` from HA and then import the current option into ESPHome.
 The chosen option can be updated from both sides and will be reflected accordinlgy.
 
@@ -66,7 +66,7 @@ This platform allows you to read your DSMR smart meter via the P1 port. Check ou
 Thermostat Breaking changes
 ---------------------------
 
-:ghuser:`kbx81` Has made a few changes to the :doc:`thermostat</components/climate/thermostat>` climate platform
+:ghuser:`kbx81` Has made a few changes to the :doc:`thermostat</docs/components/climate/thermostat>` climate platform
 in :esphomepr:`2032`, :esphomepr:`2073` and :esphomepr:`2114` to allow for the many different use cases that everyone has.
 Unfortunately this means you might need to make some changes to your YAML configuration to utilize the new code.
 
@@ -83,7 +83,7 @@ Unfortunately this means you might need to make some changes to your YAML config
 Anova Souve
 -----------
 
-There is a change with the :doc:`Anova BLE Souve</components/climate/anova>` climate platform that has a new **required**
+There is a change with the :doc:`Anova BLE Souve</docs/components/climate/anova>` climate platform that has a new **required**
 config option: ``unit_of_measurement``.
 
 

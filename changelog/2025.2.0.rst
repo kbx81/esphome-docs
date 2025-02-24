@@ -54,7 +54,7 @@ Removal of Custom Components
 ----------------------------
 
 Custom components were deprecated over a year ago and, as promised, support for them was removed in this release. We
-encourage all developers to migrate their custom components to :doc:`/components/external_components`. Please see
+encourage all developers to migrate their custom components to :doc:`/docs/components/external_components`. Please see
 :ref:`a_note_about_custom_components` for a detailed explanation and next steps.
 
 Removal of ``armv7`` support
@@ -74,7 +74,7 @@ Device Builder to build/compile firmware for your devices.
 Components which utilize the RMT hardware found on the ESP32 and its variants have been updated to use the new
 interface available in `ESP-IDF <https://github.com/espressif/esp-idf/>`__ versions 5 and above. This eliminates
 related warnings seen in the compiler logs while building ESPHome configurations. In most cases, you won't notice any
-difference, but this change could result in some issues, particularly for :doc:`/components/external_components`. You
+difference, but this change could result in some issues, particularly for :doc:`/docs/components/external_components`. You
 may need to make a minor change or two in your device configurations; the configuration validator will tell you if this
 is necessary as you update your devices.
 
@@ -90,34 +90,34 @@ updating your device's local configuration based on our updated configuration fi
 `here <https://github.com/esphome/wake-word-voice-assistants>`__.
 
 In addition, new ``speaker`` components have been introduced to provide more advanced functionality when using
-:doc:`/components/voice_assistant`. These components extend our work to help you create the ultimate personal voice
+:doc:`/docs/components/voice_assistant`. These components extend our work to help you create the ultimate personal voice
 assistant hardware.
 
-The new :doc:`speaker media player </components/media_player/speaker>` component adds several features for building
+The new :doc:`speaker media player </docs/components/media_player/speaker>` component adds several features for building
 a well-rounded audio device. It supports playing two different streams of audio: one for announcements and another
 for music.
 
-The new :doc:`mixer speaker </components/speaker/mixer>` component lets you combine the two streams. The mixer
+The new :doc:`mixer speaker </docs/components/speaker/mixer>` component lets you combine the two streams. The mixer
 even supports audio ducking, so you can lower the volume of the music while your announcement plays!
 
 Image Components
 ----------------
 
 This release adds support for alpha-blending images when using LVGL. To facilitate this, the ``use_transparency``
-configuration variable in :doc:`/components/image` and related components was renamed to ``transparency`` and changed
+configuration variable in :doc:`/docs/components/image` and related components was renamed to ``transparency`` and changed
 from a boolean to an enum; in addition, the ``type`` configuration variable is now mandatory. See the
-:doc:`/components/image` documentation for more detail.
+:doc:`/docs/components/image` documentation for more detail.
 
 The default presentation for binary images has changed in part due to the new transparency support. This may result
 in images appearing to have inverted colors for example on e-ink displays. There is a new configuration variable, ``invert_alpha``, which can be used to
 switch black and white pixels if necessary to restore the previous behaviour.
 
-Finally, the :doc:`/components/online_image` was updated to add support for both BMP and JPEG image formats.
+Finally, the :doc:`/docs/components/online_image` was updated to add support for both BMP and JPEG image formats.
 
 ILI9XXX Display Component
 -------------------------
 
-There are two changes to the :doc:`/components/display/ili9xxx` component. Previously the component automatically loaded
+There are two changes to the :doc:`/docs/components/display/ili9xxx` component. Previously the component automatically loaded
 the ``psram`` component - this has been removed, and you must now explicitly include the
 ``psram`` component in your configuration if your display requires it. The bit-depth defaults to 16 bit as before, but
 there is no attempt to automatically fallback to 8 bit if insufficient memory is available. You must now explicitly

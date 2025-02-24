@@ -23,11 +23,11 @@ ESPHome 2023.5.0 - 17th May 2023
 Speakers!!!
 -----------
 
-Following on from last months release adding :doc:`microphones </components/microphone/index>`,
-this release adds :doc:`speaker </components/speaker/index>` support!
+Following on from last months release adding :doc:`microphones </docs/components/microphone/index>`,
+this release adds :doc:`speaker </docs/components/speaker/index>` support!
 
-These new changes allows the :doc:`/components/voice_assistant` to request the raw audio
-stream response from Home Assistant to playback without using a full :doc:`/components/media_player/index`.
+These new changes allows the :doc:`/docs/components/voice_assistant` to request the raw audio
+stream response from Home Assistant to playback without using a full :doc:`/docs/components/media_player/index`.
 This has much lower latency and allows for a much more responsive voice assistant experience.
 
 
@@ -36,7 +36,7 @@ More Microphones
 
 This release also adds a bit more configuration for the i2s_audio microphone components.
 There is a breaking-change that requires new configuration fields to be added in YAML.
-See the :doc:`microphone documentation </components/microphone/i2s_audio>` for the configuration details,
+See the :doc:`microphone documentation </docs/components/microphone/i2s_audio>` for the configuration details,
 but below is a small example for the M5Stack Atom Echo.
 
 .. code-block:: yaml

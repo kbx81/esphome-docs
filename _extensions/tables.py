@@ -54,7 +54,7 @@ class ImageTableDirective(Table):
                 {
                     "name": name.strip(),
                     "link": link,
-                    "image": "/images/{}".format(image.strip()),
+                    "image": "/docs/images/{}".format(image.strip()),
                     "category": category,
                     "dark_invert": dark_invert,
                 }

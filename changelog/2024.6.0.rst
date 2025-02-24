@@ -92,7 +92,7 @@ Voice Assistant Timers
 ^^^^^^^^^^^^^^^^^^^^^^
 
 Home Assistant 2024.6 added support for starting, pausing, resuming, cancelling timers via Assist devices.
-In this ESPHome release, we added new triggers to the :doc:`Voice Assistant </components/voice_assistant>` component
+In this ESPHome release, we added new triggers to the :doc:`Voice Assistant </docs/components/voice_assistant>` component
 to take advantage of these. Timers are only in memory, do not represent entities and are only available on the device
 that started the timer.
 
@@ -129,7 +129,7 @@ If you have a password set, it may look like the following:
       platform: esphome
       password: "xxxx"
 
-As part of this change also, :doc:`safe_mode </components/safe_mode>` has been pulled out into its own top level component.
+As part of this change also, :doc:`safe_mode </docs/components/safe_mode>` has been pulled out into its own top level component.
 It is automatically included in any configuration that has an ``ota`` configuration block, so there is nothing you
 need to do unless you were overriding some of the safe mode specific configurations.
 
@@ -138,7 +138,7 @@ need to do unless you were overriding some of the safe mode specific configurati
 
 Up until now, the ``dallas`` sensor platform contained the only 1-wire implementation in ESPHome.
 There had been requests to add support for other 1-wire based components, so :ghuser:`ssieb` has
-made a new top level :doc:`1-wire </components/one_wire>` component that will allow for this.
+made a new top level :doc:`1-wire </docs/components/one_wire>` component that will allow for this.
 In doing so, the ``dallas`` sensor platform has been removed, and replaced with ``dallas_temp``
 to allow for other Dallas sensors to be implemented that are not temperature sensors.
 
@@ -166,8 +166,8 @@ to allow for other Dallas sensors to be implemented that are not temperature sen
 HTTP(s) Requests
 ^^^^^^^^^^^^^^^^
 
-The :doc:`http_request </components/http_request>` platform has been rewritten in this release to
-add support when using ESP-IDF or when using the :doc:`rp2040 </components/rp2040>` platform. This will
+The :doc:`http_request </docs/components/http_request>` platform has been rewritten in this release to
+add support when using ESP-IDF or when using the :doc:`rp2040 </docs/components/rp2040>` platform. This will
 also allow other ESPHome components to make HTTP(s) requests which includes the new ``http_request`` OTA platform and the
 ``update`` entities.
 
@@ -179,7 +179,7 @@ JSON parsing
 
 An internal helper component ``json`` has had some minor, but breaking changes that now require the parsing
 callback function to return a boolean value, representing whether the parsing was successful or not.
-This is mostly an internal change, but could be used by :doc:`external components </components/external_components>`
+This is mostly an internal change, but could be used by :doc:`external components </docs/components/external_components>`
 or lambdas in YAML.
 
 

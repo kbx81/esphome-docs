@@ -23,7 +23,7 @@ ESPHome 2024.10.0 - 16th October 2024
 Web Server Grouping
 -------------------
 
-For those that use the :doc:`/components/web_server` with version 3, there is a new
+For those that use the :doc:`/docs/components/web_server` with version 3, there is a new
 grouping feature that allows for custom/user defined groups of entities.
 
 This is also a breaking change as the previous ``web_server_sorting_weight`` has been moved into a new
@@ -43,7 +43,7 @@ configuration. See :ref:`ESP32 Advanced Configuration <esp32-advanced_configurat
 CSE7766 Breaking Changes
 ------------------------
 
-The :doc:`/components/sensor/cse7766` now requires even parity in configuration. There are some chips that work without ``EVEN``,
+The :doc:`/docs/components/sensor/cse7766` now requires even parity in configuration. There are some chips that work without ``EVEN``,
 but the majority of newer chips seem to require it and the older ones work fine with it set as well so to make it consistent across all devices
 the component now requires it.
 

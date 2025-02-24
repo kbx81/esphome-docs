@@ -42,7 +42,7 @@ that Espressif add to the ESP-IDF, such as the ESP32-C3 that a lot of people had
 There are known issues and specific components that are missing support for ESP-IDF as those ones rely
 on an Arduino library and need more time to be rewritten in a compatible way.
 
-The new documentation is here at :doc:`/components/esp32`.
+The new documentation is here at :doc:`/docs/components/esp32`.
 
 If you come across an issue while switching to ESP-IDF, please file an
 `issue on GitHub <https://github.com/esphome/issues/issues/new?assignees=&labels=&template=bug_report.yml>`__
@@ -51,7 +51,7 @@ using the ``ESP32-IDF`` option as the platform.
 Dashboard Node Import
 ---------------------
 
-If you intend on creating and distributing devices preinstalled with ESPHome, check out :doc:`/guides/creators`
+If you intend on creating and distributing devices preinstalled with ESPHome, check out :doc:`/docs/guides/creators`
 for more information and the best ways to give the end users the best experience.
 
 The newest feature of this set is the importing of devices found on the network. If the device is running
@@ -65,13 +65,13 @@ Support for generic modbus device data has been added. This allows you as a user
 to get data and control a modbus device without a native ESPHome component. Although a
 native component is still better and preferred if it exists.
 
-- :doc:`Modbus Controller </components/modbus_controller>`
-- :doc:`Sensors </components/sensor/modbus_controller>`
-- :doc:`Binary Sensors </components/binary_sensor/modbus_controller>`
-- :doc:`Text Sensors </components/text_sensor/modbus_controller>`
-- :doc:`Numbers </components/number/modbus_controller>`
-- :doc:`Switches </components/switch/modbus_controller>`
-- :doc:`Outputs </components/output/modbus_controller>`
+- :doc:`Modbus Controller </docs/components/modbus_controller>`
+- :doc:`Sensors </docs/components/sensor/modbus_controller>`
+- :doc:`Binary Sensors </docs/components/binary_sensor/modbus_controller>`
+- :doc:`Text Sensors </docs/components/text_sensor/modbus_controller>`
+- :doc:`Numbers </docs/components/number/modbus_controller>`
+- :doc:`Switches </docs/components/switch/modbus_controller>`
+- :doc:`Outputs </docs/components/output/modbus_controller>`
 
 Text Sensor filters
 -------------------

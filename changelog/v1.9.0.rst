@@ -33,7 +33,7 @@ The features I'm particularly excited about are:
 * ``esphomeflasher`` - Experiencing problems flashing esphomelib firmwares using esphomeyaml?
   No problem, esphomeflasher is a tool designed to make that super easy. Just let esphomeyaml generate the binary and flash
   from your PC.
-* :doc:`Over-the-Air Updates </components/ota/index>` have been completely re-written to make them a lot more stable.
+* :doc:`Over-the-Air Updates </docs/components/ota/index>` have been completely re-written to make them a lot more stable.
 * A lot of work has been put in to provide more context in YAML validation errors. Sometimes, esphomeyaml will even
   try to give you suggestions for how to fix a validation error!
 * A new release cycle: esphomeyaml now also has a :ref:`beta release channel <faq-beta>` kind of like Home Assistant. This helps to
@@ -46,26 +46,26 @@ Thank you very much to everybody who contributed to this release with new code o
 New Components
 --------------
 
-- There's a new base component called :doc:`text sensors </components/text_sensor/index>` for using
-  text-based inputs, not just numbers like the generic :doc:`sensors </components/sensor/index>` did
+- There's a new base component called :doc:`text sensors </docs/components/text_sensor/index>` for using
+  text-based inputs, not just numbers like the generic :doc:`sensors </docs/components/sensor/index>` did
   (:yamlpr:`166`, :docspr:`52`)
 
 - The new MQTT Subscribe Sensors allow you to get external data into esphomelib's ecosystem via MQTT
   (:libpr:`193`, :yamlpr:`175`, :docspr:`50`)
 
-- Added :doc:`CSE7766 Power Sensor </components/sensor/cse7766>` to support power measurements
+- Added :doc:`CSE7766 Power Sensor </docs/components/sensor/cse7766>` to support power measurements
   on the Sonoff Pow R2 (:libpr:`277`, :yamlpr:`190`, :docspr:`59`)
 
 - Thanks to :ghuser:`puuu`, the LED driver in the Sonoff B1 (MY9231) is now supported!
   (:libpr:`266`, :yamlpr:`227`, :docspr:`80`)
 
-- Added the :doc:`PMSX003 Particulate Matter Sensor </components/sensor/pmsx003>`
+- Added the :doc:`PMSX003 Particulate Matter Sensor </docs/components/sensor/pmsx003>`
   (:libpr:`229`, :yamlpr:`192`, :docspr:`58`)
 
-- Added support for :doc:`A4988 Stepper Motors </components/stepper/index>` (:libpr:`239`,
+- Added support for :doc:`A4988 Stepper Motors </docs/components/stepper/index>` (:libpr:`239`,
   :yamlpr:`206`, :docspr:`68`)
 
-- Added :doc:`total daily energy sensor </components/sensor/total_daily_energy>` to accumulate the total
+- Added :doc:`total daily energy sensor </docs/components/sensor/total_daily_energy>` to accumulate the total
   power usage over one day (:libpr:`256`, :yamlpr:`220`)
 
 New Features
@@ -82,7 +82,7 @@ New Features
   or the MQTT broker is unreachable, see :ref:`automation-networkless`
   (:libpr:`258`, :libpr:`267`, :yamlpr:`229`)
 
-- The :doc:`Over-the-Air Update </components/ota/index>` process was quite buggy sometimes and the Arduino-library
+- The :doc:`Over-the-Air Update </docs/components/ota/index>` process was quite buggy sometimes and the Arduino-library
   esphomelib used was doing some weird stuff. The OTA-process has now been completely re-written to be more stable
   (:libpr:`204`, :yamlpr:`177`).
 
@@ -113,7 +113,7 @@ New Features
 - Added :ref:`binary_sensor-on_multi_click` trigger to distinguish between double, long, and single clicks.
   (:libpr:`262`, :docspr:`77`,  :yamlpr:`226`)
 
-- Added an :ref:`pn532-on_tag` to :doc:`PN532 NFC Readers </components/binary_sensor/pn532>` so that automations
+- Added an :ref:`pn532-on_tag` to :doc:`PN532 NFC Readers </docs/components/binary_sensor/pn532>` so that automations
   can directly use the NFC tag ID
   (:libpr:`194`, :yamlpr:`189`, :docspr:`57`)
 
@@ -126,7 +126,7 @@ New Features
 - You now have to option to have a different log level for log messages sent over MQTT (:ref:`docs <mqtt-message>`,
   :yamlpr:`167`, :docspr:`51`)
 
-- Added a color correction option to :doc:`FastLED addressable lights </components/light/fastled>`
+- Added a color correction option to :doc:`FastLED addressable lights </docs/components/light/fastled>`
   (:libpr:`234`, :yamlpr:`200`, :docspr:`64`)
 
 - Added a ``clean`` command to esphomeyaml to fix some occasional build errors
@@ -135,11 +135,11 @@ New Features
 - Added a ``send_first_at`` option to sliding window moving average sensor filters
   (:libpr:`240`, :yamlpr:`207`, :docspr:`69`)
 
-- You can now upload OTA firmware files with the :doc:`web server component </components/web_server>`
+- You can now upload OTA firmware files with the :doc:`web server component </docs/components/web_server>`
 
-- Added the ability to define global variables in esphomeyaml: :doc:`/components/globals`.
+- Added the ability to define global variables in esphomeyaml: :doc:`/docs/components/globals`.
 
-- Added a ``frequency`` option to the :doc:`/components/output/esp8266_pwm`.
+- Added a ``frequency`` option to the :doc:`/docs/components/output/esp8266_pwm`.
 
 Breaking Changes
 ----------------

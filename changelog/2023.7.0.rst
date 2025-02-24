@@ -22,7 +22,7 @@ ESPHome 2023.7.0 - 19th July 2023
 Webserver with ESP-IDF
 ----------------------
 
-This releases adds support for the :doc:`Webserver </components/web_server>` and :doc:`/components/captive_portal`
+This releases adds support for the :doc:`Webserver </docs/components/web_server>` and :doc:`/docs/components/captive_portal`
 when using the ``esp-idf`` framework on ESP32 boards.
 
 Display components

@@ -22,11 +22,11 @@ UDP & StatsD Components
 
 This release brings two new data driven components to ESPHome.
 
-The first is the :doc:`UDP Component </components/udp>` which allows direct communication between ESPHome
+The first is the :doc:`UDP Component </docs/components/udp>` which allows direct communication between ESPHome
 devices over the local network. To start off, only sensor and binary sensor data can be transmitted, and
 hopefully more entity types will be supported in the future.
 
-Next is the :doc:`StatsD Component </components/statsd>` which allows you to send sensor data
+Next is the :doc:`StatsD Component </docs/components/statsd>` which allows you to send sensor data
 directly to a statsd server for monitoring.
 
 

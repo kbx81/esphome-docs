@@ -27,16 +27,16 @@ Before 1.12, it was only possible to transfer data from ESPHome to Home Assistan
 just define a service in your ESPHome file and call it like any other service from HA. All the
 rest (like variables, data validation, etc) are handled automatically!
 
-:doc:`ESP32 Camera Support </components/esp32_camera>`: This is huge. When integrating cameras
+:doc:`ESP32 Camera Support </docs/components/esp32_camera>`: This is huge. When integrating cameras
 into your smart home you'd always have to weigh between security and price; cheap cameras often
 are very insecure (and sometimes even exposed on the web). And even the pricier ones would
 sometimes phone back to the manufacturer and upload your data. With ESPHome, everything's 100%
 local and communicates *directly* with Home Assistant. It took a bit longer than I initially
 anticipated to iron out most stability issues, but with 1.12.0 it's finally here :)
 
-And thanks very much to :ghuser:`puuu` for the :doc:`SDS011 Particulate Matter integration </components/sensor/sds011>` and
+And thanks very much to :ghuser:`puuu` for the :doc:`SDS011 Particulate Matter integration </docs/components/sensor/sds011>` and
 :ghuser:`mvturnho` for the newly added
-:doc:`MPR121 Capacitive Touch sensor </components/binary_sensor/mpr121>` support!
+:doc:`MPR121 Capacitive Touch sensor </docs/components/binary_sensor/mpr121>` support!
 
 And as always, this release contains tons of small adjustments (like automatically providing
 suggestions for validation errors) and bug fixes to make your life easier.
@@ -45,7 +45,7 @@ Breaking Changes
 ----------------
 
 - The ``timeout_meter`` and ``timeout_time`` options of the ultrasonic sensor
-  have been merged into ``timeout``. (:doc:`/components/sensor/ultrasonic`)
+  have been merged into ``timeout``. (:doc:`/docs/components/sensor/ultrasonic`)
 - Ultrasonic Sensor no longer works with GPIO16 as echo pin on ESP8266s because
   the implementation switched to an asynchronous interrupt mode.
 
@@ -59,12 +59,12 @@ Other notable changes:
   (see addon description).
 - Improved validation. For small typos for config variables similar keys are automatically
   suggested.
-- Added ``esp8266_restore_from_flash`` to :doc:`esphome section </components/esphome>` which
+- Added ``esp8266_restore_from_flash`` to :doc:`esphome section </docs/components/esphome>` which
   enables restoring state from flash instead of RTC memory - this allows recovering relay state
   even after a power cycle.
 - Added ability
 - ``!secret`` values are now hidden for config validation.
-- Rotary Encoders have a new ``min_value`` and ``max_value`` option. (:doc:`/components/sensor/rotary_encoder`)
+- Rotary Encoders have a new ``min_value`` and ``max_value`` option. (:doc:`/docs/components/sensor/rotary_encoder`)
 - Fixed OTA not working for ESP32 when BLE enabled.
 - Added a "delete" button in the dashboard interface to delete configuration files.
 - Reworked GPIO interrupts, this will fix a bunch of issues with components that use interrupts

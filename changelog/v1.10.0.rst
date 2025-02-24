@@ -25,7 +25,7 @@ Changelog - Version 1.10.0
 Native API
 ----------
 
-This release brings with it lots of goodies, but most important is the :doc:`native API </components/api>`.
+This release brings with it lots of goodies, but most important is the :doc:`native API </docs/components/api>`.
 MQTT has been the only way this project communicated with Home Assistant for a while now. And MQTT is a great protocol
 to get started, but it always had problems:
 
@@ -123,7 +123,7 @@ Breaking Changes
             - sliding_window_moving_average: {}
 
 - The fastled effects have been renamed to ``addressable_`` for the new
-  :doc:`Neopixelbus </components/light/neopixelbus>` integration. See the validation error message
+  :doc:`Neopixelbus </docs/components/light/neopixelbus>` integration. See the validation error message
   for more info.
 
 Other notable changes:
@@ -133,16 +133,16 @@ Other notable changes:
   This is along with a *complete* rewrite of the WiFi component which now interacts directly with the ESP SDK.
   (:ref:`wifi-networks`)
 - GPIO Switches have a new option ``restore_mode`` to configure how their values should be restored on boot.
-  (:doc:`/components/switch/gpio`)
-- Added :doc:`/components/substitutions` to reduce repeating across configs.
+  (:doc:`/docs/components/switch/gpio`)
+- Added :doc:`/docs/components/substitutions` to reduce repeating across configs.
 - Validation error messages are now displayed even better. Now all errors are shown with the exact context
   where the error appeared. Try it, it's so much better. Next step will be to upgrade to a better YAML reader
   to provide better error messages when the YAML syntax is invalid.
 - Added a bunch of guides (and helpers) for creating custom components. Also new: ``esphomeyaml.libraries``,
-  ``esphomeyaml.includes`` and ``esphomeyaml.platformio_options`` (:doc:`/components/esphome`)
+  ``esphomeyaml.includes`` and ``esphomeyaml.platformio_options`` (:doc:`/docs/components/esphome`)
 - Saved a lot of flash space on ESP8266 boards. Previously, platformio would allocate about 1/4 of flash for SPIFFS,
   but esphomelib doesn't use that so now you have that as extra storage. Thanks `@brandond <http://github.com/brandond>`
-- You can now use Home Assistant to get time in ESPHome, so no more need for SNTP. See :doc:`/components/time/index`.
+- You can now use Home Assistant to get time in ESPHome, so no more need for SNTP. See :doc:`/docs/components/time/index`.
 
 Release 1.10.1 - January 13
 ---------------------------

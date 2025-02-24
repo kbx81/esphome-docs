@@ -27,7 +27,7 @@ Webserver
 ---------
 
 Thanks to :ghuser:`wilberforce` for doing a massive bunch of work on giving new life to the frontend of
-the :doc:`webserver </components/web_server>`.
+the :doc:`webserver </docs/components/web_server>`.
 
 Release 2022.3.1 - March 23
 ---------------------------

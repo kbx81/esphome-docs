@@ -34,19 +34,19 @@ Sprinkler controller
 --------------------
 
 :ghuser:`kbx81` has written a beast of a sprinkler controller to help organise and schedule all of your sprinkler valves
-and keep those plants and veggies thriving. Check out the docs at :doc:`/components/sprinkler`.
+and keep those plants and veggies thriving. Check out the docs at :doc:`/docs/components/sprinkler`.
 
 ST7789V
 -------
 
-The :doc:`/components/display/st7789v` display platform has had an update which adds a ``model`` configuration option.
+The :doc:`/docs/components/display/st7789v` display platform has had an update which adds a ``model`` configuration option.
 With this comes custom width and heights to allow you to use this with any display using this driver now.
 
 Breaking Changes
 ----------------
 
 There are a few breaking changes this release, including removing ``min_save_interval`` from
-the :doc:`/components/sensor/integration` and :doc:`/components/sensor/total_daily_energy`.
+the :doc:`/docs/components/sensor/integration` and :doc:`/docs/components/sensor/total_daily_energy`.
 The BedJet climate introduced recently has also undergone a refactoring to allow different
 platforms to extend the functionality available from ESPHome.
 

@@ -31,7 +31,7 @@ Tuya lights
 -----------
 
 Tuya Lights have had a configuration change and replaced ``rgb_datapoint`` and ``hsv_datapoint`` with a new
-combination of ``color_datapoint`` and ``color_type``. See the updated documentation (:doc:`/components/light/tuya`) for more information.
+combination of ``color_datapoint`` and ``color_type``. See the updated documentation (:doc:`/docs/components/light/tuya`) for more information.
 
 
 SN74HC165

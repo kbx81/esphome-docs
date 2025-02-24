@@ -46,7 +46,7 @@ Wi-Fi enable and disable
 ------------------------
 
 Wi-Fi can now be enabled and disabled on demand using the ``wifi.enable`` and ``wifi.disable`` actions.
-It can also be set to not enable on bootup. See the :doc:`Wi-Fi documentation </components/wifi>` for more details.
+It can also be set to not enable on bootup. See the :doc:`Wi-Fi documentation </docs/components/wifi>` for more details.
 
 
 Release 2023.6.1 - June 23

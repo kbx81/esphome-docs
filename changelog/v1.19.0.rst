@@ -21,7 +21,7 @@ Wow. Ok, so this release may not look big, but there are a number of new feature
 Improv
 ------
 
-:doc:`Improv Wi-Fi </components/esp32_improv>` is a new standard that stands for **Improved Provisioning of Wi-Fi
+:doc:`Improv Wi-Fi </docs/components/esp32_improv>` is a new standard that stands for **Improved Provisioning of Wi-Fi
 Credentials**. What it does is allow you to provision Wi-Fi credentials to the device by using Bluetooth LE.
 Check out the website for more details at `improv-wifi.com <https://www.improv-wifi.com/>`__.
 
@@ -47,7 +47,7 @@ For the Creators
 ----------------
 
 There have been a few additions to the ESPHome codebase that make it easier for creators to make projects
-in ESPHome and distribute them pre-installed and ready to use. See the :doc:`new page here </guides/creators>`.
+in ESPHome and distribute them pre-installed and ready to use. See the :doc:`new page here </docs/guides/creators>`.
 
 
 The Web Experience

@@ -70,7 +70,7 @@ Due to the Arduino bump, the FastLED library suffers issues when running on ESP8
 on Arduino 3+. Because of this there is now a restriction on the ``fastled_clockless``
 and ``fastled_spi`` components to only allow using them if you change the arduino version
 back to 2.7.4 or lower. This will be in place until the library can update and fix the
-issues. See the :doc:`documentation </components/light/fastled>` for information on how
+issues. See the :doc:`documentation </docs/components/light/fastled>` for information on how
 to continue using the lights.
 
 
@@ -93,7 +93,7 @@ Debug Sensors Breaking change
 -----------------------------
 
 The sub-sensors of the ``debug`` have been moved to their respective component platforms.
-Please see the :doc:`documentation </components/debug>` page for the new way to configure them.
+Please see the :doc:`documentation </docs/components/debug>` page for the new way to configure them.
 
 Release 2022.2.1 - February 17
 ------------------------------

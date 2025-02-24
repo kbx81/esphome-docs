@@ -22,7 +22,7 @@ ESPHome 2023.9.0 - 27th September 2023
 LibreTiny
 ---------
 
-:doc:`LibreTiny </components/libretiny>` is a platform for the RTL87xx and BK72xx family of chips. ESPHome leverages
+:doc:`LibreTiny </docs/components/libretiny>` is a platform for the RTL87xx and BK72xx family of chips. ESPHome leverages
 this platform and brings the powerful yet simple YAML configuration to these chips.
 
 It has been months in the making, and many back and forwards with :ghuser:`kuba2k2`
@@ -33,14 +33,14 @@ It has been months in the making, and many back and forwards with :ghuser:`kuba2
 Wireguard
 ---------
 
-:doc:`WireGuard </components/wireguard>` is a new component that allows you to connect to a |wireguard| Peer.
+:doc:`WireGuard </docs/components/wireguard>` is a new component that allows you to connect to a |wireguard| Peer.
 
 LED Strips
 ----------
 
-Following on from the previously added :doc:`/components/light/esp32_rmt_led_strip`, we now have
-:doc:`SPI LED Strips </components/light/spi_led_strip>`. These are replacement components for
-:doc:`/components/light/neopixelbus` and :doc:`/components/light/fastled` that
+Following on from the previously added :doc:`/docs/components/light/esp32_rmt_led_strip`, we now have
+:doc:`SPI LED Strips </docs/components/light/spi_led_strip>`. These are replacement components for
+:doc:`/docs/components/light/neopixelbus` and :doc:`/docs/components/light/fastled` that
 do not rely on the Arduino framework.
 
 Release 2023.9.1 - September 28

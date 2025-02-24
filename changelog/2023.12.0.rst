@@ -23,8 +23,8 @@ ESPHome 2023.12.0 - 20th December 2023
 Graphical Menu
 --------------
 
-Following on from the previous :doc:`/components/display_menu/lcd_menu` that was only for LCD displays,
-there is now a new :doc:`/components/display_menu/graphical_display_menu` that can be used with any
+Following on from the previous :doc:`/docs/components/display_menu/lcd_menu` that was only for LCD displays,
+there is now a new :doc:`/docs/components/display_menu/graphical_display_menu` that can be used with any
 graphical/pixel based display.
 
 Pin Reuse validation

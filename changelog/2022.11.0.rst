@@ -72,8 +72,8 @@ Preserving User WiFi Credentials
 --------------------------------
 
 If you purchase a device, or install ESPHome on a device that does not have Wi-Fi credentials pre-configured from YAML,
-ESPHome will now preserve any credentials entered via the :doc:`/components/captive_portal`, :doc:`/components/improv_serial`
-or :doc:`/components/esp32_improv` components after an OTA update of the firmeware is done. It is possible they can survive
+ESPHome will now preserve any credentials entered via the :doc:`/docs/components/captive_portal`, :doc:`/docs/components/improv_serial`
+or :doc:`/docs/components/esp32_improv` components after an OTA update of the firmeware is done. It is possible they can survive
 flashing via serial, but only if the flash was not erased first, which it is in the case of using ESPHome to flash.
 
 Products that use `ESP Web Tools <https://esphome.github.io/esp-web-tools>`__ are able to specify in the manifest that the flash

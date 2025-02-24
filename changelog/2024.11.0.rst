@@ -34,8 +34,8 @@ actually compile anything.
 OpenTherm
 ---------
 
-This release brings :doc:`/components/opentherm` support to ESPHome. Please see the
-:doc:`documentation </components/opentherm>` for detailed information about it and how to use it.
+This release brings :doc:`/docs/components/opentherm` support to ESPHome. Please see the
+:doc:`documentation </docs/components/opentherm>` for detailed information about it and how to use it.
 
 ESPHome ``armv7`` Docker Support
 --------------------------------

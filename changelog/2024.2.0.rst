@@ -22,7 +22,7 @@ micro Wake Word
 ---------------
 
 ESPHome implements an on-device wake word detection framework from `microWakeWord <https://github.com/kahrendt/microWakeWord>`__.
-See the :doc:`component documentation </components/micro_wake_word>` for details on how to use it.
+See the :doc:`component documentation </docs/components/micro_wake_word>` for details on how to use it.
 
 Check out the live stream replay below for more details about how it works and came to be.
 
@@ -40,7 +40,7 @@ BME280 changes
 
 :ghuser:`apbodrov` has added support for the BME280 sensor over SPI. This change is a breaking change for any existing configurations using
 the BME280 over I2C as the platform name has been changed from ``bme280`` to ``bme280_i2c``. There are no other configuration changes required
-to continue using the BME280 over I2C. See the :doc:`component documentation </components/sensor/bme280>` for the latest configuration variables.
+to continue using the BME280 over I2C. See the :doc:`component documentation </docs/components/sensor/bme280>` for the latest configuration variables.
 
 
 CSE7766 changes
